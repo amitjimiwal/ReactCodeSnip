@@ -1,0 +1,18 @@
+*{
+  padding: 0px;
+  margin:0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.name{
+  color:red;
+}
+
+.colorchange{
+  color: green;
+}
