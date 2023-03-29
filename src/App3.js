@@ -4,9 +4,10 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Profile from "./components/Profile";
 import { createContext } from "react";
-
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 export const App3Context = createContext();
 const App3 = () => {
+  const client = new QueryClient();
   const [username, setusername] = useState("Amit");
   return (
     <div>
@@ -21,13 +22,15 @@ const App3 = () => {
       The COrrect wway to do this is below */}
       <Link to="profile">Profile</Link>
       <Link to="contact">Contact</Link>
-      <App3Context.Provider value={{ username, setusername }}>
-        <Routes>
-          <Route path="/*" element={<Home />} />
-          <Route path="profile" element={<Profile />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-      </App3Context.Provider>
+      <QueryClientProvider client={client}>
+        <App3Context.Provider value={{ username, setusername }}>
+          <Routes>
+            <Route path="/*" element={<Home />} />
+            <Route path="profile" element={<Profile />} />
+            <Route path="contact" element={<Contact />} />
+          </Routes>
+        </App3Context.Provider>
+      </QueryClientProvider>
     </div>
   );
 };
