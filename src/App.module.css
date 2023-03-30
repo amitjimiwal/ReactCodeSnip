@@ -16,3 +16,7 @@
 .colorchange{
   color: green;
 }
+
+.form>*{
+  display: block;
+}

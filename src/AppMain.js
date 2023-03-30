@@ -5,6 +5,7 @@ import App2 from "./App2";
 import App from "./App";
 import Navbar from "./components/Navbar";
 import App3 from "./App3";
+import App4 from "./App4";
 
 const AppMain = () => {
   return (
@@ -16,6 +17,7 @@ const AppMain = () => {
           <Route path="firstpage" element={<App2 />} />
           <Route path="secondpage" element={<App />} />
           <Route path="thirdpage/*" element={<App3 />} />
+          <Route path="/fourthpage" element={<App4 />} />
         </Routes>
       </Router>
     </div>

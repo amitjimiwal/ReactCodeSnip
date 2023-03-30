@@ -6,6 +6,7 @@ const Navbar = () => {
       <Link to="firstpage">page1</Link>
       <Link to="secondpage">Page2</Link>
       <Link to="thirdpage/*">Page3</Link>
+      <Link to="/fourthpage">Page4</Link>
     </div>
   );
 };
