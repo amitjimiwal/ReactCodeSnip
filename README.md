@@ -1,7 +1,7 @@
 # Getting Started 
-<h4>Repository Contains information about the React Hooks and topics</h4>
-<p>Just Go to the Commit History of the repository and browse the code of particular topic you want to see.<br></p>
-Will be adding more topics soon  :)
+<h4>Repository Contains some React Hooks and topics </h4>
+<p>Just Go to the Commit History of the repository and browse the code of particular topic if you want to see.<br></p>
+Will be learning and adding more topics soon :)
 
 # How to Proceed
 To view the commit history and browse the code, please follow the steps below:
