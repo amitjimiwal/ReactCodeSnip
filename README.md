@@ -1,6 +1,38 @@
-# Getting Started with Create React App
+# Getting Started 
+<h4>Repository Contains information about the React Hooks and topics</h4>
+<p>Just Go to the Commit History of the repository and browse the code of particular topic you want to see.<br></p>
+Will be adding more topics soon  :)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to Proceed
+To view the commit history and browse the code, please follow the steps below:
+
+1. Go to the repository homepage on GitHub.
+2. Click on the "Commits" tab located on the top navigation bar.
+3. You will see a list of all the commits made to the repository. Each commit message contains the topic covered in that commit.
+4. Click on the commit message to view the details of that commit.
+5. You can browse the code changes made in that commit by clicking on the "View" button located next to each file.
+6. You can also navigate to other commits by clicking on the "Browse files" button located on the top right corner of the commit page.
+<br>
+We hope you find this repository useful and informative. If you have any questions or suggestions, please feel free to create an issue or pull request.
+
+# Contributing
+
+We welcome contributions to this project! To get started, follow these steps:
+1. Fork this repository.
+
+2. Create a new branch: git checkout -b my-new-feature.
+
+3. Make your changes and commit them: git commit -am 'Add some feature'.
+
+4. Push to the branch: git push origin my-new-feature.
+
+5. Submit a pull request.
+
+Please make sure your code adheres to our coding standards and is properly documented. We also recommend opening an issue to discuss any major changes before you start working on them.
+
+If you would like to contribute but don't know where to start, check out the list of open issues for ideas. Or, feel free to reach out to us with questions or suggestions.
+
+Thank you for your contributions to this project!
 
 ## Available Scripts
 
@@ -9,62 +41,9 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
+
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
