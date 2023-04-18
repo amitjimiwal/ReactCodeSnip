@@ -4,7 +4,10 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
-
+button{
+  display: block;
+  margin:1em auto;
+}
 .App {
   text-align: center;
 }
