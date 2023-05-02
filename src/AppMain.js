@@ -1,18 +1,19 @@
 import { useDispatch, useSelector } from "react-redux";
 import style from "./App.module.css";
 import React from "react";
+import { addValue, decrementData, incrementData } from "./slice/counterSlice";
 
 const AppMain = () => {
-  const counter=useSelector((state)=> state.count);
+  const counter=useSelector((state)=> state.value);
   const dispatch=useDispatch()
   function increment(){
-    dispatch({type:"Increment"});
+    dispatch(incrementData());
   }
   function decrement(){
-    dispatch({type:"Decrement"});
+    dispatch(decrementData());
   }
   function add(){
-    dispatch({type:"add",payload:10})
+    dispatch(addValue({value:10}))
   }
   return (
     <div className={style.App}>
