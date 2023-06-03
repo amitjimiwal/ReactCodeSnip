@@ -6,15 +6,6 @@ const Hookuseref=lazy(()=> import("./components/Hookuseref"));
 const AppMain = () => {
   return (
     <div className={style.App}>
-    <Router>
-     <Suspense>
-     <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="hooksuseref" element={<Hookuseref/>}/>
-      </Routes>
-     </Suspense>
-    </Router>
-    
     </div>
   );
 };
